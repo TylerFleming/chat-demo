@@ -1,0 +1,66 @@
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--purple);
+}
+
+
+#login {
+    padding: 1rem;
+    width: 325px;
+    height: 305px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--white);
+}
+
+.login__container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__photo > button {
+    border: none;
+    cursor: pointer;
+}
+
+input#chat-name {
+    margin: 2rem 0;
+    width: 218px;
+    height: 44px;
+    border: none;
+    background: rgba(196, 196, 196, 0.35);
+    text-indent: 1rem;
+}
+
+.login__button > button {
+    height: 40px;
+    width: 40px;
+    border: none;
+    pointer-events: none;
+}
+
+.login__button > button.active {
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.login__button > button.active > svg > g {
+    transition: all 250ms ease;
+}
+
+.login__button > button.active > svg > g {
+    opacity: 1;
+}
+
+.login__button > button.active > svg > g > path {
+    fill: var(--purple);
+}
