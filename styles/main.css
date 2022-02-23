@@ -4,3 +4,12 @@
     --purple: #505285;
     --white: #F1F1F1;
 }
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--purple);
+}
