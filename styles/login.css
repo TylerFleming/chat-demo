@@ -1,5 +1,9 @@
 
 #login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
     padding: 1rem;
     width: 325px;
     height: 305px;
@@ -7,6 +11,7 @@
     align-items: center;
     justify-content: center;
     background: var(--white);
+    overflow: hidden;
 }
 
 .login__container {

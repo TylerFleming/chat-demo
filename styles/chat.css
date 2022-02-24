@@ -1,0 +1,30 @@
+
+#chat {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+#users-list {
+    width: 100px;
+    background: var(--white);
+}
+
+#chat-room {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    width: 100%;
+}
+
+.message-container {
+    width: 100%;
+    height: 90%;
+}
+
+.input-container {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

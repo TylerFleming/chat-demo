@@ -5,3 +5,9 @@ export function checkNameLength() {
     nameInput.value.length > 0 ? loginButton.classList.add('active') : loginButton.classList.remove('active');
 }
 
+export class User {
+    constructor(name) {
+        this.name = name;
+    }
+}
+
