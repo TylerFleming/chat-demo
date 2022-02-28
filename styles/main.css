@@ -1,6 +1,12 @@
 @import url('login.css');
 @import url('chat.css');
 
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
 :root {
     --purple: #505285;
     --white: #F1F1F1;
@@ -13,6 +19,7 @@ body {
     align-items: center;
     justify-content: center;
     background: var(--purple);
+    overflow: hidden;
 }
 
 main {

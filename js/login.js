@@ -9,5 +9,9 @@ export class User {
     constructor(name) {
         this.name = name;
     }
+
+    chatMessage(message) {
+        this.message = message;
+    }
 }
 
